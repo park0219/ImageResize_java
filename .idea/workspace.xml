@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0daf7f89-d22f-4582-8a42-dca842ed7ed5" name="Default Changelist" comment="이미지 리사이즈 java 완료">
-      <change afterPath="$PROJECT_DIR$/afterImage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beforeImage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ImageResize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageResize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageResize.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
@@ -46,6 +51,17 @@
     <configuration name="ImageResize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ImageResize" />
       <module name="ImageResize_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -65,7 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1625010789686</updated>
       <workItem from="1625010791793" duration="3435000" />
-      <workItem from="1625014281124" duration="187000" />
+      <workItem from="1625014281124" duration="212000" />
+      <workItem from="1625096218079" duration="97000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore 설정">
       <created>1625011138727</created>
@@ -74,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625011138728</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="이미지 리사이즈 java 완료">
+      <created>1625014473446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625014473446</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
