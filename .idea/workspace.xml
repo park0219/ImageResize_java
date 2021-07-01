@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0daf7f89-d22f-4582-8a42-dca842ed7ed5" name="Default Changelist" comment="이미지 리사이즈 java 완료">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="0daf7f89-d22f-4582-8a42-dca842ed7ed5" name="Default Changelist" comment="maven 프로젝트로 변경 후 metadata-extractor, xmpcore 라이브러리 추가">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_adobe_xmp_xmpcore_6_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_drewnoakes_metadata_extractor_2_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterImage2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beforeImage2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageResize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageResize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageResize_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ImageResize_java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageResize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageResize.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +88,7 @@
       <updated>1625010789686</updated>
       <workItem from="1625010791793" duration="3435000" />
       <workItem from="1625014281124" duration="212000" />
-      <workItem from="1625096218079" duration="97000" />
+      <workItem from="1625096218079" duration="2421000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore 설정">
       <created>1625011138727</created>
@@ -98,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625014473446</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="maven 프로젝트로 변경 후 metadata-extractor, xmpcore 라이브러리 추가">
+      <created>1625096518184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625096518184</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".gitignore 설정" />
     <MESSAGE value="이미지 리사이즈 java 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="이미지 리사이즈 java 완료" />
+    <MESSAGE value="maven 프로젝트로 변경 후 metadata-extractor, xmpcore 라이브러리 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven 프로젝트로 변경 후 metadata-extractor, xmpcore 라이브러리 추가" />
   </component>
 </project>
