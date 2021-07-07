@@ -21,6 +21,8 @@ public class ImageResize {
     public static void resize(String beforeResizeImagePath, String afterResizeImagePath, int width, int height) throws IOException {
         //원본 파일로 입력 BufferedImage 생성
         File beforeFile = new File(beforeResizeImagePath);
+        //BufferedImage beforeImage = ImageIO.read(beforeFile);
+        //위 방법은 세로가 긴 이미지에 대한 처리 불가능
         BufferedImage beforeImage = setBufferedImage(beforeFile);
 
         //출력 BufferedImage 생성
@@ -47,6 +49,8 @@ public class ImageResize {
     public static void resizeWithPercent(String beforeResizeImagePath, String afterResizeImagePath, double percent) throws IOException {
         //원본 파일의 너비, 높이 가져오기
         File beforeFile = new File(beforeResizeImagePath);
+        //BufferedImage beforeImage = ImageIO.read(beforeFile);
+        //위 방법은 세로가 긴 이미지에 대한 처리 불가능
         BufferedImage beforeImage = setBufferedImage(beforeFile);
         int width = (int) (beforeImage.getWidth() * percent / 100);
         int height = (int) (beforeImage.getHeight() * percent / 100);
