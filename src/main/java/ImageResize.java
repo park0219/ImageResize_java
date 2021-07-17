@@ -57,6 +57,11 @@ public class ImageResize {
         resize(beforeResizeImagePath, afterResizeImagePath, width, height);
     }
 
+    /**
+     * 이미지 형태에 맞게 BufferedImage를 만들어줌
+     * @param beforeFile BufferedImage를 생성하기 위한 File
+     * @return 이미지 형태 맞게 생성한 BufferedImage
+     */
     public static BufferedImage setBufferedImage(File beforeFile) throws IOException {
 
         BufferedImage beforeImage = ImageIO.read(beforeFile);
